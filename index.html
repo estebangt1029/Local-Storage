@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="llenar">
+            <label for="nombre">NOMBRE</label>
+            <input id="nombre" type="text" placeholder="nombre">
+            <label for="curso">CURSO</label>
+            <input id="curso" type="text" placeholder="curso">
+            <label for="genero">GENERO</label>
+            <input id="genero" type="text" placeholder="genero">
+            <label for="nota1">NOTA 1</label>
+            <input id="nota1" type="number" placeholder="nota 1">
+            <label for="nota2">NOTA 2</label>
+            <input id="nota2" type="number" placeholder="nota 2">
+            <label for="nota3">NOTA 3</label>
+            <input id="nota3" type="number" placeholder="nota 3">
+            
+            <div class="btn">
+                <button id="registrar">registrar</button>
+                <button id="mostrar">mostrar</button>
+                <button id="eliminar">eliminar</button>
+            </div>
+            <p>presione Esc para vaciar datos</p>
+           
+        </div>
+        <div class="resultados">
+            <table class="table">
+                <th>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Genero</td>
+                        <td>Curso</td>
+                        <td>Promedio</td>
+                    </tr>
+                </th>
+                <tbody id="resultados">
+                    
+                </tbody>
+            </table>
+        </div>
+
+        
+        
+    
+
+    </div>
+    
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
